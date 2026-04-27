@@ -105,6 +105,10 @@ div.images a {
   width: 200px;
 }
 
+a[hreflang="ja"]::after {
+  content: " [en japonais]";
+}
+
 /*------------------------------------------------------------------------------
    Mise en page
 ------------------------------------------------------------------------------*/
@@ -161,6 +165,7 @@ section.web .images a {
   color: white;
   text-decoration: underline;
 }
+
 /* Section photographie */
 
 section.photos {
@@ -176,6 +181,11 @@ section.photos a {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+
+section.photos .images {
+  display: flex;
+  flex-direction: column;
 }
 
 /* Bouton retour */
