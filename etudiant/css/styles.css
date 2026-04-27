@@ -1,0 +1,96 @@
+/*----------------------------------------------------------------------------
+    Reset
+----------------------------------------------------------------------------*/
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+/*------------------------------------------------------------------------------
+   Base
+------------------------------------------------------------------------------*/
+
+body {
+  background-image: url(../images/fond/global.png);
+  background-color: black;
+  font: "Oranienbaum" 1rem;
+  color: white;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+a:hover {
+  color: darkorange;
+}
+
+header,
+section {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+header {
+  text-align: center;
+}
+
+header.div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+div.boite {
+  width: 800px;
+  padding: 48px;
+  border-radius: 10px;
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+header a {
+  position: absolute;
+  bottom: 40px;
+  left: 50%;
+  transform: translateX(-50%);
+  /* illegal move */
+  /* margin-left: -80px; */
+}
+
+h1 {
+  font-family: "Monoton";
+  font-size: 6.25rem;
+}
+
+/*------------------------------------------------------------------------------
+   Mise en page
+------------------------------------------------------------------------------*/
+
+/*----------------------------------------------------------------------------
+    Elements
+----------------------------------------------------------------------------*/
+
+/*------------------------------------------------------------------------------
+   Components
+------------------------------------------------------------------------------*/
+
+/* Header */
+
+/* Section Générale */
+
+/* Section sports */
+
+/* Section web */
+
+/* Section photographie */
+
+/* Bouton retour */
