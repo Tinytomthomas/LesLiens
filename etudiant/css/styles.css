@@ -19,13 +19,24 @@ html {
 body {
   background-image: url(../images/fond/global.png);
   background-color: black;
-  font: "Oranienbaum" 1rem;
+  font-size: 1rem;
+  font-family: "Oranienbaum", serif;
+  font-weight: 400;
+  font-style: normal;
   color: white;
 }
 
 a {
   color: white;
   text-decoration: none;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+a img {
+  width: 100%;
+  margin-bottom: 10px;
 }
 
 a:hover {
@@ -42,12 +53,6 @@ section {
 
 header {
   text-align: center;
-}
-
-header.div {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
 }
 
 div.boite {
@@ -67,8 +72,41 @@ header a {
 }
 
 h1 {
-  font-family: "Monoton";
+  font-family: "Monoton", sans-serif;
+  font-weight: 400;
+  font-style: normal;
   font-size: 6.25rem;
+}
+
+h2 {
+  font-family: "Monoton", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 2rem;
+  margin: 0;
+  text-transform: uppercase;
+}
+h2 span {
+  font-family: "Oranienbaum", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1.0625rem;
+  text-transform: lowercase;
+}
+
+div.images {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+div.images a {
+  width: 200px;
+}
+
+section.sports {
+  background-image: url(../images/fond/bicycles.png);
 }
 
 /*------------------------------------------------------------------------------
@@ -84,7 +122,10 @@ h1 {
 ------------------------------------------------------------------------------*/
 
 /* Header */
-
+header.div {
+  display: flex;
+  justify-content: center;
+}
 /* Section Générale */
 
 /* Section sports */
